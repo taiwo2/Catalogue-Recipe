@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
 import Cart from '../assets/images/cart.png';
 import Menu from './MenuComponent';
 
@@ -27,7 +26,7 @@ const Header = () => {
     <div className="container">
       <div className="navbar">
         <div className="logo">
-          <img src={Logo} alt="logo" />
+          <h1>Food Meal</h1>
         </div>
         <nav>
           <ul id="menu-items" ref={menuRef}>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Play from '../assets/images/play-store.png';
 import App from '../assets/images/app-store.png';
-import Logo from '../assets/images/logo-white.png';
 
 const Footer = () => (
   <div className="footer">
@@ -16,7 +15,7 @@ const Footer = () => (
           </div>
         </div>
         <div className="footer-col-2">
-          <img src={Logo} alt="logo" />
+          <h1>Food meal</h1>
           <p>Nothing brings people together like good food...</p>
         </div>
         <div className="footer-col-3">
@@ -39,7 +38,7 @@ const Footer = () => (
         </div>
       </div>
       <hr />
-      <p className="copyright">Copyright 2021 - Rindra Josia</p>
+      <p className="copyright">Copyright 2021 - Taiwo Adetona</p>
     </div>
   </div>
 );
