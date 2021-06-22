@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## Testing :
 
-$ npm t
+$ npm test
 
 ## See a live demo [Here](https://nervous-aryabhata-c30a75.netlify.app/recipe/52978)
 
@@ -47,9 +47,9 @@ Give a ⭐️ if you like this project!
 
 # Screenshot
 
-* ![Home](./docx/1.jpg)
-* ![Details](./docx/2.png)
-* ![About](./docx/3.png)
+* ![Home](./doc/food.png)
+* ![Details](./doc/details.png)
+* ![About](./doc/about.png)
 
 ## Authors
 
@@ -60,8 +60,23 @@ Give a ⭐️ if you like this project!
 - LinkedIn: [Taiwo Adetona](https://www.linkedin.com/in/taiwo-adetona/)
 
 - Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4/)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/rindrajosia/recipes-redux/issues).
+Feel free to check the [issues page](../../issues/).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Microverse, for the lessons and tips.
+
+## 📝 License
+
+MIT License
