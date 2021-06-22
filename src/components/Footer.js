@@ -15,7 +15,9 @@ const Footer = () => (
           </div>
         </div>
         <div className="footer-col-2">
-          <h1>Food meal</h1>
+          <div className="log">
+            <h1>Food Meal</h1>
+          </div>
           <p>Nothing brings people together like good food...</p>
         </div>
         <div className="footer-col-3">
