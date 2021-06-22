@@ -1,10 +1,11 @@
 import React from 'react';
+import Gallery from '../assets/images/josia.png';
 
 const About = () => (
   <div className="small-container single-product">
     <div className="row">
       <div className="col-2">
-        <img className="img-single" src="" alt="" />
+        <img className="img-single" src={Gallery} alt="" />
       </div>
       <div className="col-2">
         <h1>About</h1>
