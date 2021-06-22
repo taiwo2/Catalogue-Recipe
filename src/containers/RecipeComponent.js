@@ -11,7 +11,7 @@ const RecipeComponent = ({ recipeData, fetchRecipes, changeFilter }) => {
     fetchRecipes();
   }, [fetchRecipes]);
 
-  const handleFilterChange = filter => {
+  const handleFilterChange = (filter) => {
     changeFilter(filter);
   };
 
@@ -24,7 +24,7 @@ const RecipeComponent = ({ recipeData, fetchRecipes, changeFilter }) => {
       {recipeData.loading && <h2>Loading</h2>}
       {recipeData.error && <h2>{recipeData.error}</h2>}
       {
-        recipeData && recipeData.recipes && recipeData.recipes.map(recipe => (
+        recipeData && recipeData.recipes && recipeData.recipes.map((recipe) => (
           <div key={recipe.idMeal} className="tile">
             <h2>{recipe.strMeal}</h2>
             <img src={recipe.strMealThumb} alt="" />
@@ -41,7 +41,7 @@ RecipeComponent.propTypes = {
   fetchRecipes: PropTypes.func.isRequired,
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   const { filter } = state;
   const recipeData = getRecipeByFilter(state, filter);
   return { recipeData };
