@@ -2,7 +2,7 @@ import {
   FETCH_CATEGORIES_REQUEST,
   FETCH_CATEGORIES_SUCCESS,
   FETCH_CATEGORIES_FAILURE,
-} from '../actions/actionTypes';
+} from '../actions/actionsType';
 
 export const initialState = {
   loading: false,

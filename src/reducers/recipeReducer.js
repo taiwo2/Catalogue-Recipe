@@ -2,7 +2,7 @@ import {
   FETCH_RECIPES_REQUEST,
   FETCH_RECIPES_SUCCESS,
   FETCH_RECIPES_FAILURE,
-} from '../actions/actionTypes';
+} from '../actions/actionsType';
 
 export const initialState = {
   loading: false,

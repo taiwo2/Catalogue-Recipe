@@ -1,4 +1,4 @@
-import { CHANGE_FILTER } from '../actions/actionTypes';
+import { CHANGE_FILTER } from '../actions/actionsType';
 import { CATEGORY_FILTERS } from '../constants';
 
 export const initialState = CATEGORY_FILTERS.ALL;

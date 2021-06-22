@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -17,11 +18,11 @@ const CategoryFilter = ({
       {categoriesData.loading && <h2>Loading</h2> }
       {categoriesData.error && <h2>{categoriesData.error}</h2> }
       {
-        <select className="select" value={filter} onChange={e => { handleFilterChange(e.target.value); }} id="category" name="category" required>
+        <select className="select" value={filter} onChange={(e) => { handleFilterChange(e.target.value); }} id="category" name="category" required>
           <option key={Math.floor(Math.random() * 10000)} value="All">
             All
           </option>
-          {categoriesData.categories.map(category => (
+          {categoriesData.categories.map((category) => (
             <option key={category.idCategory} value={category.strCategory}>
               {category.strCategory}
             </option>
@@ -43,7 +44,7 @@ CategoryFilter.defaultProps = {
   filter: CATEGORY_FILTERS.ALL,
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   const { filter } = state;
   const categoriesData = getCategoriesList(state);
   return { filter, categoriesData };

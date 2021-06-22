@@ -1,11 +1,10 @@
-import React from 'react'
-
+import React from 'react';
 
 const About = () => (
   <div className="small-container single-product">
     <div className="row">
       <div className="col-2">
-        <img className="img-single" src={Gallery} alt="" />
+        <img className="img-single" src="" alt="" />
       </div>
       <div className="col-2">
         <h1>About</h1>
@@ -31,4 +30,4 @@ const About = () => (
   </div>
 );
 
-export default About
+export default About;

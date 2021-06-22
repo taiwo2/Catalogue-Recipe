@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -13,7 +15,7 @@ const RecipesList = ({ recipeData, fetchRecipes, changeFilter }) => {
     fetchRecipes(URL.RECIPES);
   }, [fetchRecipes]);
 
-  const handleFilterChange = filter => {
+  const handleFilterChange = (filter) => {
     changeFilter(filter);
   };
 
@@ -28,7 +30,7 @@ const RecipesList = ({ recipeData, fetchRecipes, changeFilter }) => {
         {recipeData.error && <h2 className="info">{recipeData.error}</h2>}
         {
           recipeData && recipeData.recipes && recipeData.recipes.length
-            ? recipeData.recipes.map(recipe => <Recipe key={recipe.idMeal} recipe={recipe} />) : (
+            ? recipeData.recipes.map((recipe) => <Recipe key={recipe.idMeal} recipe={recipe} />) : (
               <h2 className="info">No Recipes for this category.</h2>
             )
         }
@@ -43,7 +45,7 @@ RecipesList.propTypes = {
   changeFilter: PropTypes.func.isRequired,
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   const { filter } = state;
   const recipeData = getRecipeByFilter(state, filter);
   return { recipeData };
