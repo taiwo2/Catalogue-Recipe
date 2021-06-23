@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Single page 1`] = `
+<button
+  className="btn-icon"
+  onClick={[Function]}
+  type="button"
+>
+  <img
+    alt="cart"
+    className="menu-icon"
+    src="menu.png"
+  />
+</button>
+`;
