@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps:
 
 $ npm test
 
-## See a live demo [Here](https://nervous-aryabhata-c30a75.netlify.app/recipe/52978)
+## See a live demo [Here](https://nervous-aryabhata-c30a75.netlify.app/)
 
 ## Show your support
 Give a ⭐️ if you like this project!
