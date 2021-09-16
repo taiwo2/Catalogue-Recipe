@@ -6,9 +6,10 @@ This project is based on a catalogue of recipes. It is not an app to help you ma
 * ![About](./doc/about.png)
 
 ## video presentation
-[loom](https://www.loom.com/share/2800388836af491c98e4b95fc0a5bfb3)
-[loom1](https://www.loom.com/share/fe51f5afcbea4b568bbde1660370fc4e)
-This webapp has 3 types of pages:
+[video](https://www.loom.com/share/2800388836af491c98e4b95fc0a5bfb3)
+[video2](https://www.loom.com/share/fe51f5afcbea4b568bbde1660370fc4e)
+
+## This webapp has 3 types of pages:
 * one page with a list of items that could be filtered by category;
 * one page for the item details;
 * one page for the Project specifications;
