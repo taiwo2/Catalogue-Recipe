@@ -1,6 +1,13 @@
 # Catalogue of Recipes
 This project is based on a catalogue of recipes. It is not an app to help you make a recipe, it is just, a browsable list of items that you can filter and access to the details of one item.
 
+* ![Home](./doc/food.png)
+* ![Details](./doc/details.png)
+* ![About](./doc/about.png)
+
+## video presentation
+[loom](https://www.loom.com/share/2800388836af491c98e4b95fc0a5bfb3)
+[loom1](https://www.loom.com/share/fe51f5afcbea4b568bbde1660370fc4e)
 This webapp has 3 types of pages:
 * one page with a list of items that could be filtered by category;
 * one page for the item details;
@@ -43,16 +50,6 @@ $ npm test
 
 ## Show your support
 Give a ⭐️ if you like this project!
- 
-## video presentation
-[loom](https://www.loom.com/share/2800388836af491c98e4b95fc0a5bfb3)
-[loom1](https://www.loom.com/share/fe51f5afcbea4b568bbde1660370fc4e)
-
-# Screenshot
-
-* ![Home](./doc/food.png)
-* ![Details](./doc/details.png)
-* ![About](./doc/about.png)
 
 ## Authors
 
